@@ -89,7 +89,7 @@ write.table(tidy_dataset, "./tidy_dataset.txt")
 
 The best way to view the the final tidy set is to read it back into R:
 ```{r, eval = FALSE}
-address <- "https://coursera-assessments.s3.amazonaws.com/assessments/1590561616609/2dbe7cfe-b9f1-44db-dfd8-f8a0b8fce13f/tidy_dataset.txt"
+address <- "https://coursera-assessments.s3.amazonaws.com/assessments/1590645163313/1e6b31a0-be7f-493f-9e26-266bfcea1f8d/tidy_dataset.txt"
 address <- sub("^https", "http", address)
 data <- read.table(url(address), header = TRUE, check.names = FALSE) 
 View(data)
